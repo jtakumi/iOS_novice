@@ -15,6 +15,7 @@
 		2B6D7FDC2C1340D500CA64FC /* iOS_noviceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D7FDB2C1340D500CA64FC /* iOS_noviceUITests.swift */; };
 		2B6D7FDE2C1340D500CA64FC /* iOS_noviceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D7FDD2C1340D500CA64FC /* iOS_noviceUITestsLaunchTests.swift */; };
 		2B6D7FED2C134EAB00CA64FC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D7FEC2C134EAB00CA64FC /* CircleImage.swift */; };
+		2B777CB12C1567530008FDF7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B777CB02C1567530008FDF7 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2B6D7FDB2C1340D500CA64FC /* iOS_noviceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_noviceUITests.swift; sourceTree = "<group>"; };
 		2B6D7FDD2C1340D500CA64FC /* iOS_noviceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_noviceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2B6D7FEC2C134EAB00CA64FC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2B777CB02C1567530008FDF7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				2B6D7FC42C1340D500CA64FC /* Assets.xcassets */,
 				2B6D7FEC2C134EAB00CA64FC /* CircleImage.swift */,
 				2B6D7FC62C1340D500CA64FC /* Preview Content */,
+				2B777CB02C1567530008FDF7 /* MapView.swift */,
 			);
 			path = iOS_novice;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B6D7FC32C1340D400CA64FC /* ContentView.swift in Sources */,
+				2B777CB12C1567530008FDF7 /* MapView.swift in Sources */,
 				2B6D7FC12C1340D400CA64FC /* iOS_noviceApp.swift in Sources */,
 				2B6D7FED2C134EAB00CA64FC /* CircleImage.swift in Sources */,
 			);
