@@ -10,6 +10,8 @@ import SwiftUI
 struct CircleImage: View {
     var body: some View {
         Image("theTree")
+            .resizable()
+            .aspectRatio(contentMode:.fit)
             .clipShape(Circle())
             .overlay{
                 Circle().stroke(.white,lineWidth: 4)
