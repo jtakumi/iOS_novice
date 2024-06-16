@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B5409C42C1E971A00875BD5 /* iOS-novice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOS-novice-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2B6D7FBD2C1340D400CA64FC /* iOS_novice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_novice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6D7FC02C1340D400CA64FC /* iOS_noviceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_noviceApp.swift; sourceTree = "<group>"; };
 		2B6D7FC22C1340D400CA64FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		2B6D7FBF2C1340D400CA64FC /* iOS_novice */ = {
 			isa = PBXGroup;
 			children = (
+				2B5409C42C1E971A00875BD5 /* iOS-novice-Info.plist */,
 				2B6D7FC02C1340D400CA64FC /* iOS_noviceApp.swift */,
 				2B6D7FC22C1340D400CA64FC /* ContentView.swift */,
 				2B6D7FC42C1340D500CA64FC /* Assets.xcassets */,
@@ -433,11 +435,13 @@
 				DEVELOPMENT_TEAM = AW4XX4A8C2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-novice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,11 +466,13 @@
 				DEVELOPMENT_TEAM = AW4XX4A8C2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-novice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
