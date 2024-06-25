@@ -2,7 +2,7 @@
 //  iOS_noviceTests.swift
 //  iOS_noviceTests
 //
-//  Created by Takumi Jindo on 2024/06/07.
+//  Created on 2024/06/07.
 //
 
 import XCTest

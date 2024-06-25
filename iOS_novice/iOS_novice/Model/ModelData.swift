@@ -2,7 +2,7 @@
 //  ModelData.swift
 //  swiftUINavigate
 //
-//  Created by Takumi Jindo on 2024/06/25.
+//  Created  on 2024/06/25.
 //
 
 import Foundation
