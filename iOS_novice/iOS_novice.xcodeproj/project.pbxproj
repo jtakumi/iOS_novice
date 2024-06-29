@@ -17,6 +17,7 @@
 		2B6D7FED2C134EAB00CA64FC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D7FEC2C134EAB00CA64FC /* CircleImage.swift */; };
 		2B777CB12C1567530008FDF7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B777CB02C1567530008FDF7 /* MapView.swift */; };
 		2BF1D87A2C2F85DC00A4F247 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1D86C2C2F85DC00A4F247 /* landmarkData.json */; };
+		2BF1D87C2C2F868300A4F247 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1D87B2C2F868300A4F247 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2B6D7FEC2C134EAB00CA64FC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2B777CB02C1567530008FDF7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2BF1D86C2C2F85DC00A4F247 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		2BF1D87B2C2F868300A4F247 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				2B6D7FC22C1340D400CA64FC /* ContentView.swift */,
 				2B6D7FC42C1340D500CA64FC /* Assets.xcassets */,
 				2B6D7FEC2C134EAB00CA64FC /* CircleImage.swift */,
+				2BF1D87B2C2F868300A4F247 /* Landmark.swift */,
 				2B6D7FC62C1340D500CA64FC /* Preview Content */,
 				2B777CB02C1567530008FDF7 /* MapView.swift */,
 			);
@@ -281,6 +284,7 @@
 				2B777CB12C1567530008FDF7 /* MapView.swift in Sources */,
 				2B6D7FC12C1340D400CA64FC /* iOS_noviceApp.swift in Sources */,
 				2B6D7FED2C134EAB00CA64FC /* CircleImage.swift in Sources */,
+				2BF1D87C2C2F868300A4F247 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
