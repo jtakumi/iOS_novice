@@ -2,14 +2,15 @@
 //  CircleImage.swift
 //  iOS_novice
 //
-//  Created by Takumi Jindo on 2024/06/07.
+//  Created on 2024/06/07.
 //
 
 import SwiftUI
 
 struct CircleImage: View {
+    var image:Image
     var body: some View {
-        Image("theTree")
+        image
             .resizable()
             .aspectRatio(contentMode:.fit)
             .clipShape(Circle())
@@ -21,5 +22,5 @@ struct CircleImage: View {
 }
 
 #Preview {
-    CircleImage()
+    CircleImage(image: Image("turtleRock"))
 }

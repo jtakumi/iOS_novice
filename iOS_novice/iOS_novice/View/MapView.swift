@@ -2,26 +2,27 @@
 //  MapView.swift
 //  iOS_novice
 //
-//  Created by Takumi Jindo on 2024/06/09.
+//  Created on 2024/06/09.
 //
 
 import SwiftUI
 import MapKit
 
 struct MapView: View {
+    var coordinate: CLLocationCoordinate2D
+    
     var body: some View {
-        Map(initialPosition:.region(region))
+        Map(position: .constant(.region(region)))
     }
-}
 
 private var region:MKCoordinateRegion{
     MKCoordinateRegion(
-        center:CLLocationCoordinate2D(latitude:34.011_286,longitude:-116.166_868)
-        ,
+        center: coordinate,
         span:MKCoordinateSpan(latitudeDelta:  0.2, longitudeDelta:0.2)
         )
+    }
 }
 
 #Preview {
-    MapView()
+    MapView(coordinate: CLLocationCoordinate2D(latitude: 34.011_286, longitude: -116.166_868))
 }
