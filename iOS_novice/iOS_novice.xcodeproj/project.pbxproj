@@ -20,7 +20,6 @@
 		2BAF8FE32C2AFEF10002A1A6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF8FE22C2AFEF00002A1A6 /* ModelData.swift */; };
 		2BF1D8002C2F730500A4F247 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1D7FF2C2F730500A4F247 /* LandmarkRow.swift */; };
 		2BF1D8032C2F761800A4F247 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1D8022C2F761800A4F247 /* landmarkData.json */; };
-		2BF1D8062C2F77DB00A4F247 /* landmarkData.json in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1D8022C2F761800A4F247 /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -304,7 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF1D8062C2F77DB00A4F247 /* landmarkData.json in Sources */,
 				2B6D7FC32C1340D400CA64FC /* ContentView.swift in Sources */,
 				2B777CB12C1567530008FDF7 /* MapView.swift in Sources */,
 				2B6D7FC12C1340D400CA64FC /* iOS_noviceApp.swift in Sources */,
