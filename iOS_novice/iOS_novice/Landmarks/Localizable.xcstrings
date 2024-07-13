@@ -23,7 +23,7 @@
         }
       }
     },
-    "Favorite Landmarks only displaying." : {
+    "Favorite Landmarks only display" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -39,7 +39,7 @@
         },
         "ja" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "お気に入りの観光地のみ表示"
           }
         }

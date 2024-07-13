@@ -22,7 +22,7 @@ struct LandmarkList: View {
         NavigationSplitView{
             List{
                 Toggle(isOn: $showFavoritesOnly, label: {
-                        Text("Favorite Landmarks only displaying.")
+                        Text("Favorite Landmarks only display")
                 })
                ForEach(filteredLandmarks) { landmark in
                     NavigationLink{
