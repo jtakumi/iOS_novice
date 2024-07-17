@@ -1,0 +1,194 @@
+[
+    {
+        "name": "Turtle Rock",
+        "category": "Sungai",
+        "city": "Twentynine Palms",
+        "state": "California",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Taman Nasional Joshua Tree",
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "Turtle Rock adalah formasi batuan populer di Taman Nasional Joshua Tree, dikenal karena bentuknya yang unik seperti kura-kura dan peluang pendakian batu yang luar biasa.",
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "Silver Salmon Creek",
+        "category": "Danau",
+        "city": "Port Alsworth",
+        "state": "Alaska",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Taman Nasional dan Cagar Alam Danau Clark",
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "Silver Salmon Creek adalah tempat terkenal untuk melihat beruang dan memancing salmon di Taman Nasional dan Cagar Alam Danau Clark.",
+        "imageName": "silversalmoncreek"
+    },
+    {
+        "name": "Chilkoot Trail",
+        "category": "Gunung",
+        "city": "Skagway",
+        "state": "Alaska",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "Taman Sejarah Nasional Demam Emas Klondike",
+        "coordinates": {
+            "longitude": -135.334571,
+            "latitude": 59.560551
+        },
+        "description": "Chilkoot Trail adalah jalur bersejarah sepanjang 33 mil yang merupakan rute akses utama dari pantai ke ladang emas Yukon selama Demam Emas Klondike.",
+        "imageName": "chilkoottrail"
+    },
+    {
+        "name": "St. Mary Lake",
+        "category": "Danau",
+        "city": "Browning",
+        "state": "Montana",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Taman Nasional Glacier",
+        "coordinates": {
+            "longitude": -113.536248,
+            "latitude": 48.69423
+        },
+        "description": "St. Mary Lake adalah danau terbesar kedua di Taman Nasional Glacier dan menawarkan pemandangan yang menakjubkan serta kesempatan untuk berperahu dan memancing.",
+        "imageName": "stmarylake"
+    },
+    {
+        "name": "Twin Lake",
+        "category": "Danau",
+        "city": "Twin Lakes",
+        "state": "Alaska",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Taman Nasional dan Cagar Alam Danau Clark",
+        "coordinates": {
+            "longitude": -153.849883,
+            "latitude": 60.641684
+        },
+        "description": "Twin Lake adalah lokasi terpencil dan indah di Taman Nasional dan Cagar Alam Danau Clark, sempurna bagi para penggemar alam liar dan pengayuh kayak.",
+        "imageName": "twinlake"
+    },
+    {
+        "name": "Lake McDonald",
+        "category": "Gunung",
+        "city": "West Glacier",
+        "state": "Montana",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Taman Nasional Glacier",
+        "coordinates": {
+            "longitude": -113.934831,
+            "latitude": 48.56002
+        },
+        "description": "Lake McDonald adalah danau terbesar di Taman Nasional Glacier, dikenal karena airnya yang jernih, pemandangan yang indah, dan satwa liar yang melimpah.",
+        "imageName": "lakemcdonald"
+    },
+    {
+        "name": "Charley Rivers",
+        "category": "Sungai",
+        "city": "Eaking",
+        "state": "Alaska",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "Cagar Alam Nasional Sungai Charley",
+        "coordinates": {
+            "longitude": -143.122586,
+            "latitude": 65.350021
+        },
+        "description": "Charley Rivers adalah sungai liar dan indah di Cagar Alam Nasional Sungai Charley, menawarkan peluang untuk berkano dan arung jeram di alam liar terpencil.",
+        "imageName": "charleyrivers"
+    },
+    {
+        "name": "Icy Bay",
+        "category": "Gunung",
+        "city": "Icy Bay",
+        "state": "Alaska",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Taman Nasional dan Cagar Alam Wrangell-St. Elias",
+        "coordinates": {
+            "longitude": -141.518167,
+            "latitude": 60.089917
+        },
+        "description": "Icy Bay adalah teluk yang spektakuler di Taman Nasional dan Cagar Alam Wrangell-St. Elias, dikenal karena gletsernya yang runtuh dan pemandangan gunung yang menakjubkan.",
+        "imageName": "icybay"
+    },
+    {
+        "name": "Rainbow Lake",
+        "category": "Danau",
+        "city": "Willow",
+        "state": "Alaska",
+        "id": 1009,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Area Rekreasi Negara Bagian",
+        "coordinates": {
+            "longitude": -150.086103,
+            "latitude": 61.694334
+        },
+        "description": "Rainbow Lake adalah danau yang indah di Area Rekreasi Negara Bagian Alaska, ideal untuk memancing, berperahu, dan menikmati lingkungan yang tenang.",
+        "imageName": "rainbowlake"
+    },
+    {
+        "name": "Hidden Lake",
+        "category": "Danau",
+        "city": "Newhalem",
+        "state": "Washington",
+        "id": 1010,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Taman Nasional North Cascades",
+        "coordinates": {
+            "longitude": -121.17799,
+            "latitude": 48.495442
+        },
+        "description": "Hidden Lake adalah danau yang tenang di Taman Nasional North Cascades, dapat diakses melalui pendakian yang menantang dan menawarkan pemandangan alpine yang menakjubkan.",
+        "imageName": "hiddenlake"
+    },
+    {
+        "name": "Chincoteague",
+        "category": "Sungai",
+        "city": "Chincoteague",
+        "state": "Virginia",
+        "id": 1011,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Suaka Margasatwa Nasional Chincoteague",
+        "coordinates": {
+            "longitude": -75.383212,
+            "latitude": 37.91531
+        },
+        "description": "Chincoteague adalah tujuan populer di Suaka Margasatwa Nasional Chincoteague, dikenal karena kuda liar dan pemandangan pantai yang indah.",
+        "imageName": "chincoteague"
+    },
+    {
+        "name": "Lake Umbagog",
+        "category": "Danau",
+        "city": "Errol",
+        "state": "New Hampshire",
+        "id": 1012,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Suaka Margasatwa Nasional Umbagog",
+        "coordinates": {
+            "longitude": -71.056816,
+            "latitude": 44.747408
+        },
+        "description": "Lake Umbagog adalah danau besar yang indah di Suaka Margasatwa Nasional Umbagog, menawarkan peluang yang sangat baik untuk mengamati burung, berkayak, dan memancing.",
+        "imageName": "umbagog"
+    }
+]

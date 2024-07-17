@@ -2,14 +2,14 @@
 //  ModelData.swift
 //  iOS_novice
 //
-//  Created  on 2024/06/29.
+//  Created on 2024/06/29.
 //
 
 import Foundation
 
 @Observable
 class ModelData{
-    var landmarks:[Landmark] = load("landmarkData.json")
+    var landmarks:[Landmark] = load(getAppLanguage())
 }
 
 func load<T:Decodable>(_ filename:String) -> T {
