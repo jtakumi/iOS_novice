@@ -1,0 +1,188 @@
+[
+    {
+        "name": "タートルロック",
+        "category": "川",
+        "city": "トゥエンティナイン・パームズ",
+        "state": "カリフォルニア",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "ジョシュア・ツリー国立公園",
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "description": "タートルロックは、ジョシュア・ツリー国立公園内で人気のある岩石形成物で、そのユニークなカメのような形状と優れたロッククライミングの機会で知られています。",
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "シルバーサーモンクリーク",
+        "category": "湖",
+        "city": "ポート・アルスワース",
+        "state": "アラスカ",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "レイク・クラーク国立公園および保護区",
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "description": "シルバーサーモンクリークは、レイク・クラーク国立公園および保護区で、クマの観察とサケ釣りで有名なスポットです。",
+        "imageName": "silversalmoncreek"
+    },
+    {
+        "name": "チルクート・トレイル",
+        "category": "山",
+        "city": "スカグウェイ",
+        "state": "アラスカ",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "クロンダイクゴールドラッシュ国立歴史公園",
+        "coordinates": {
+            "longitude": -135.334571,
+            "latitude": 59.560551
+        },
+        "description": "チルクート・トレイルは、クロンダイクゴールドラッシュの際に沿岸からユーコンの金鉱地帯への主要なアクセスルートであった歴史的な33マイルのトレイルです。",
+        "imageName": "chilkoottrail"
+    },
+    {
+        "name": "セントメアリー湖",
+        "category": "湖",
+        "city": "ブラウニング",
+        "state": "モンタナ",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "グレイシャー国立公園",
+        "coordinates": {
+            "longitude": -113.536248,
+            "latitude": 48.69423
+        },
+        "description": "セントメアリー湖はグレイシャー国立公園で2番目に大きな湖で、美しい景色とボートや釣りの機会を提供します。",
+        "imageName": "stmarylake"
+    },
+    {
+        "name": "ツインレイク",
+        "category": "湖",
+        "city": "ツインレイクス",
+        "state": "アラスカ",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "レイク・クラーク国立公園および保護区",
+        "coordinates": {
+            "longitude": -153.849883,
+            "latitude": 60.641684
+        },
+        "description": "ツインレイクは、レイク・クラーク国立公園および保護区の中で、自然愛好家やカヤック愛好者に最適な、遠く離れた美しい場所です。",
+        "imageName": "twinlake"
+    },
+    {
+        "name": "マクドナルド湖",
+        "category": "山",
+        "city": "ウェスト・グレイシャー",
+        "state": "モンタナ",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "グレイシャー国立公園",
+        "coordinates": {
+            "longitude": -113.934831,
+            "latitude": 48.56002
+        },
+        "description": "マクドナルド湖は、グレイシャー国立公園で最も大きな湖で、澄んだ水、美しい景色、豊かな野生動物で知られています。",
+        "imageName": "lakemcdonald"
+    },
+    {
+        "name": "チャーリー川",
+        "category": "川",
+        "city": "イーキング",
+        "state": "アラスカ",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": false,
+        "park": "チャーリー川国立保護区",
+        "coordinates": {
+            "longitude": -143.122586,
+            "latitude": 65.350021
+        },
+        "description": "チャーリー川は、チャーリー川国立保護区内の自然豊かな川で、カヌーやラフティングのための遠隔地での冒険が楽しめます。",
+        "imageName": "charleyrivers"
+    },
+    {
+        "name": "アイシーベイ",
+        "category": "山",
+        "city": "アイシーベイ",
+        "state": "アラスカ",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "ランゲル＝セント・エライアス国立公園および保護区",
+        "coordinates": {
+            "longitude": -141.518167,
+            "latitude": 60.089917
+        },
+        "description": "アイシーベイは、ランゲル＝セント・エライアス国立公園および保護区内の壮大な湾で、氷河が崩れ落ちる様子や素晴らしい山の景色が楽しめます。",
+        "imageName": "icybay"
+    },
+    {
+        "name": "レインボーレイク",
+        "category": "湖",
+        "city": "ウィロー",
+        "state": "アラスカ",
+        "id": 1009,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "州立レクリエーションエリア",
+        "coordinates": {
+            "longitude": -150.086103,
+            "latitude": 61.694334
+        },
+        "description": "レインボーレイクは、アラスカの州立レクリエーションエリア内の美しい湖で、釣り、ボート、静かな環境を楽しむのに最適です。",
+        "imageName": "rainbowlake"
+    },
+    {
+        "name": "ヒドゥンレイク",
+        "category": "湖",
+        "city": "ニューハーレム",
+        "state": "ワシントン",
+        "id": 1010,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "ノース・カスケーズ国立公園",
+        "coordinates": {
+            "longitude": -121.17799,
+            "latitude": 48.495442
+        },
+        "description": "ヒドゥンレイクは、ノース・カスケーズ国立公園内の静かな湖で、挑戦的なハイキングルートを通じてアクセスでき、素晴らしい高山の景色が楽しめます。",
+        "imageName": "hiddenlake"
+    },
+    {
+        "name": "チンコティーグ",
+        "category": "川",
+        "city": "チンコティーグ",
+        "state": "バージニア",
+        "id": 1011,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "チンコティーグ国立野生動物保護区",
+        "coordinates": {
+            "longitude": -75.383212,
+            "latitude": 37.91531
+        },
+        "description": "チンコティーグは、チンコティーグ国立野生動物保護区内で人気の観光地で、野生のポニーや美しい海岸の風景で知られています。",
+        "imageName": "chincoteague"
+    },
+    {
+        "name": "アンバゴグ湖",
+        "category": "湖",
+        "city": "エロール",
+        "state": "ニューハンプシャー",
+        "id": 1012,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "アンバゴグ国立野生動物保
+        },
+]
