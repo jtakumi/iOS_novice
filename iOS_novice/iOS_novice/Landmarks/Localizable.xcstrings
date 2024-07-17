@@ -12,13 +12,13 @@
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About %@"
+            "value" : "Tentang %@"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About %@"
+            "value" : " %@ について"
           }
         }
       }
