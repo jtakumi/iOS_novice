@@ -8,12 +8,10 @@
 import Foundation
 
 func getAppLanguage() -> String {
-    let language = Locale(identifier: Locale.preferredLanguages[0])
-    print(language.language.languageCode ?? "Couldn't get language code.")
-    let fileLanguage = switch(language.language.languageCode) {
-    case .some("ja") :"landmarkDataJa.json"
-    case .some("id") :"landmarkDataId.json"
-    case .none :"landmarkData.json"
+    let language = Locale(identifier: Locale.preferredLanguages[0]).language.languageCode
+    let fileLanguage = switch(language) {
+    case "ja" :"landmarkDataJa.json"
+    case "id" :"landmarkDataId.json"
     default : "landmarkData.json"
     }
     return fileLanguage
