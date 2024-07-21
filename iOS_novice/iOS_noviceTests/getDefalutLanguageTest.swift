@@ -41,6 +41,13 @@ final class getDefalutLanguageTest: XCTestCase {
         XCTAssertEqual(FileName,getFileName)
     }
     
+    func testGetLanguageSelectDefalutFileWithNoLanguageCode() throws {
+       let setLanguage = ""
+        let FileName = "landmarkData.json"
+        let getFileName = getLanguageSelectFile(language: setLanguage)
+        XCTAssertEqual(FileName,getFileName)
+    }
+    
     func getLanguageSelectFile(language:String) -> String {
         // 本来であれば、appLanguageのメソッドをテストするところだが、languageCode の返り値を string にできないというエラーが解消できなかったため同じ条件式を作成しテストする
         let fileLanguage = switch(language) {
