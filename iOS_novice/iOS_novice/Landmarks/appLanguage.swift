@@ -17,5 +17,6 @@ func getAppLanguage() -> String {
     case "id" :"landmarkDataId.json"
     default : "landmarkData.json"
     }
+    print("file language = \(fileLanguage)")
     return fileLanguage
 }
