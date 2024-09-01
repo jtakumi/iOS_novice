@@ -2,8 +2,8 @@
 //  ModelData.swift
 //  iOS_novice
 //
-//  Created on 2024/06/29.
-//
+//  JSON ファイルを探し出して読み込み、decode するコード
+// ModelData として機能する
 
 import Foundation
 
@@ -16,12 +16,14 @@ func load<T:Decodable>(_ filename:String) -> T {
     let data:Data
     
     guard let file = Bundle.main.url(forResource: filename, withExtension:nil)
+            //ファイルが見つからない時のエラー
     else{
         fatalError("Couldn't find \(filename) in main bundle.")
     }
     do{
         data = try Data(contentsOf: file)
     } catch {
+        //ファイルは見つかったものの、何らかの原因でファイルを読み込めなかった時
         fatalError("Couldn't load \(filename) in main bundle:\n\(error)")
     }
     do {
@@ -29,6 +31,7 @@ func load<T:Decodable>(_ filename:String) -> T {
         return try decoder.decode(T.self,from:data)
     
     } catch {
+        //decode できなかった時
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
     

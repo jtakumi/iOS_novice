@@ -2,7 +2,7 @@
 //  LandmarkRow.swift
 //  iOS_novice
 //
-//  Created by Takumi Jindo on 2024/06/29.
+//  リストのセルを描写するコード
 //
 
 import SwiftUI
@@ -12,11 +12,14 @@ struct LandmarkRow: View {
     var body: some View {
         HStack{
             landmark.image
+            //画像を 50 x 50 で左端に表示
                 .resizable()
                 .frame(width: 50, height: 50)
             Text(landmark.name)
+            //Spacer を挿入することでお気に入りアイコンを右端に寄せている
             Spacer()
             if( landmark.isFavorite) {
+                //お気に入り登録している時だけ星アイコンを黄色で表示する
                 Image(systemName: "star.fill")
                     .foregroundStyle(.yellow)
             }
