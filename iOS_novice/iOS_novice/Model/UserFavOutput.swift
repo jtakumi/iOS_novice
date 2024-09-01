@@ -6,6 +6,8 @@
 
 import Foundation
 
+
+
 // 星アイコンがタップされたら観光地ID と お気に入りフラグを JSON ファイルとして書き出す
 func UserFavOutput(landmarkId:Int,isFavorite:Bool){
   if let outputData = "{id : \(landmarkId), \n isFavorite: \(isFavorite)}".data(using: .utf8),
@@ -13,6 +15,7 @@ func UserFavOutput(landmarkId:Int,isFavorite:Bool){
       let outputFileName = documentDirectory.appendingPathComponent("UserFavOutput.json")
         do{
             try outputData.write(to: outputFileName)
+            print("file created: \(outputFileName)")
         } catch{
             fatalError("Couldn't write \(outputData) to \(outputFileName) .")
         }
