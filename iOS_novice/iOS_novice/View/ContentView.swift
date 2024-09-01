@@ -2,8 +2,8 @@
 //  ContentView.swift
 //  iOS_novice
 //
-//  Created  on 2024/06/07.
 //
+//リスト画面を表示するコード
 
 import SwiftUI
 

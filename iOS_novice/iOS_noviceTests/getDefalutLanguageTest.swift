@@ -2,7 +2,7 @@
 //  getDefalutLanguageTest.swift
 //  iOS_noviceTests
 //
-//  Created by Takumi Jindo on 2024/07/21.
+// 言語選択のテスト
 //
 
 import XCTest
