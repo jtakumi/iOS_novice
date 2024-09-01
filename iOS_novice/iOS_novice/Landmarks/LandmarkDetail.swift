@@ -27,8 +27,12 @@ struct LandmarkDetail: View {
                         landmark.name
                     )
                     .font(.title)
+                    
                     //お気に入りアイコンがタップされたらお気に入りとして登録する
-                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite).onTapGesture(perform: {
+                        UserFavOutput(landmarkId: landmark.id, isFavorite: landmark.isFavorite)
+                    })
+                    
                 }
                
                 HStack{
