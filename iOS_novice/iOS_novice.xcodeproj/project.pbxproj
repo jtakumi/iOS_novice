@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B4F31F02C4D185A0027F18E /* getDefalutLanguageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F31EF2C4D185A0027F18E /* getDefalutLanguageTest.swift */; };
 		2B59E5B72C36DC5A0015249C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B59E5B62C36DC5A0015249C /* FavoriteButton.swift */; };
+		2B5D7CA72D18256700318B40 /* IsFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D7CA62D18255E00318B40 /* IsFavorite.swift */; };
 		2B6D7FC12C1340D400CA64FC /* iOS_noviceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D7FC02C1340D400CA64FC /* iOS_noviceApp.swift */; };
 		2B6D7FC32C1340D400CA64FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6D7FC22C1340D400CA64FC /* ContentView.swift */; };
 		2B6D7FC52C1340D500CA64FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6D7FC42C1340D500CA64FC /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		2B4F31EF2C4D185A0027F18E /* getDefalutLanguageTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDefalutLanguageTest.swift; sourceTree = "<group>"; };
 		2B5409C42C1E971A00875BD5 /* iOS-novice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iOS-novice-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2B59E5B62C36DC5A0015249C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		2B5D7CA62D18255E00318B40 /* IsFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsFavorite.swift; sourceTree = "<group>"; };
 		2B6D7FBD2C1340D400CA64FC /* iOS_novice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_novice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6D7FC02C1340D400CA64FC /* iOS_noviceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_noviceApp.swift; sourceTree = "<group>"; };
 		2B6D7FC22C1340D400CA64FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		2BF1D87F2C2F893E00A4F247 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2B5D7CA62D18255E00318B40 /* IsFavorite.swift */,
 				2BF1D87B2C2F868300A4F247 /* Landmark.swift */,
 				2BF1D87D2C2F87A700A4F247 /* ModelData.swift */,
 				2B7D16A92C84299200C3B8E2 /* UserFavOutput.swift */,
@@ -284,7 +287,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					2B6D7FBC2C1340D400CA64FC = {
 						CreatedOnToolsVersion = 15.4;
@@ -369,6 +372,7 @@
 				2BF1D8862C30246700A4F247 /* LandmarkDetail.swift in Sources */,
 				2B6D7FED2C134EAB00CA64FC /* CircleImage.swift in Sources */,
 				2BF1D87C2C2F868300A4F247 /* Landmark.swift in Sources */,
+				2B5D7CA72D18256700318B40 /* IsFavorite.swift in Sources */,
 				2BF1D8822C2F90AF00A4F247 /* LandmarkRow.swift in Sources */,
 				2BF1D87E2C2F87A700A4F247 /* ModelData.swift in Sources */,
 			);
@@ -414,6 +418,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -477,6 +482,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -593,7 +599,6 @@
 		2B6D7FE52C1340D500CA64FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -613,7 +618,6 @@
 		2B6D7FE62C1340D500CA64FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -633,7 +637,6 @@
 		2B6D7FE82C1340D500CA64FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AW4XX4A8C2;
@@ -651,7 +654,6 @@
 		2B6D7FE92C1340D500CA64FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AW4XX4A8C2;
