@@ -32,7 +32,7 @@ struct LandmarkDetail: View {
                                       })
                     
                     //お気に入りアイコンがタップされたらお気に入りとして登録する
-                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    FavoriteButton(landmark: $modelData.landmarks[landmarkIndex])
                         .onTapGesture(count:1,perform: {
                         UserFavOutput(landmarkId: landmark.id, isFavorite: landmark.isFavorite)
                     })
