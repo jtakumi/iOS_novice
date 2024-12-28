@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import CoreLocation
+import SwiftData
 
 struct Landmark:Hashable,Codable,Identifiable{
     // JSON から読み込む情報
@@ -16,9 +17,10 @@ struct Landmark:Hashable,Codable,Identifiable{
     var park:String
     var state:String //観光地がある州
     var description:String
-    var isFavorite:Bool //お気に入り登録しているかのデフォ値
+    //SwiftData で管理
+    var isFavorite:Bool = false //お気に入り登録しているかのデフォ値
     
-    private var imageName:String
+    public var imageName:String
     var image:Image{
         //画像の名前から画像を取得
         Image(imageName)
