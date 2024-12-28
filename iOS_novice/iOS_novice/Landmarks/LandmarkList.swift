@@ -12,6 +12,8 @@ struct LandmarkList: View {
     // 初期状態ではお気に入り登録していない観光地も表示する
     @State private var showFavoritesOnly = false
     
+    @State private var searchWord:String = ""
+    
     var filteredLandmarks:[Landmark] {
         modelData.landmarks.filter{
             landmark in
@@ -45,6 +47,7 @@ struct LandmarkList: View {
         } detail: {
             Text("Select a Landmark")
         }
+        .searchable(text: $searchWord,prompt:"search landkmark name")
     }
 }
 
