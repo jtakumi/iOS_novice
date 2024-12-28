@@ -47,7 +47,9 @@ struct LandmarkList: View {
         } detail: {
             Text("Select a Landmark")
         }
-        .searchable(text: $searchWord,prompt:"search landkmark name")
+        .searchable(text: $searchWord,
+                    placement:.sidebar,
+                    prompt:"search landkmark name")
     }
 }
 
