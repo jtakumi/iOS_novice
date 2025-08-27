@@ -1,10 +1,10 @@
 import SwiftUI
 
 struct TouristSpotList: View {
-    let spots: [TouristSpot]
+    @Environment(TouristSpotStore.self) private var store
 
     var body: some View {
-        List(spots) { spot in
+        List(store.spots) { spot in
             VStack(alignment: .leading) {
                 Text(spot.name)
                     .font(.headline)
@@ -16,6 +16,7 @@ struct TouristSpotList: View {
 }
 
 #Preview {
-    TouristSpotList(spots: touristSpots)
+    TouristSpotList()
+        .environment(TouristSpotStore())
 }
 

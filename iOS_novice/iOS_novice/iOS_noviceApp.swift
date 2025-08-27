@@ -12,10 +12,12 @@ struct iOS_noviceApp: App {
     // Android でいうなら Activityのような存在
     // まずmodel data を読み込み、画面の生成( ContentView )を行う
     @State private var modelData = ModelData()
+    @State private var touristSpotStore = TouristSpotStore()
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environment(modelData)
+                .environment(touristSpotStore)
         }
     }
 }
