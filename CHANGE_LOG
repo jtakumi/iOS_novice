@@ -1,0 +1,71 @@
+# CHANGE_LOG
+
+Generated from git commit history.
+
+2025-08-27 Merge pull request #16 from jtakumi/codex/update-readme-with-current-implementation-details
+2025-08-27 docs: expand README
+2024-12-28 Merge pull request #14 from jtakumi/isFavoriteSwiftData
+2024-12-22 system file
+2024-12-22 key decoding strategy
+2024-12-22 modelContext.save()
+2024-12-22 change argument
+2024-12-22 public var imageName
+2024-12-22 Environment modelContext
+2024-12-22 create IsFavorite model
+2024-09-01 log output
+2024-09-01 tapGesture
+2024-09-01 change data style
+2024-09-01 function created
+2024-09-01 file created
+2024-09-01 Merge pull request #12 from jtakumi/writeComments
+2024-09-01 add comments
+2024-07-21 Merge pull request #11 from jtakumi/getDefaultLanguageTest
+2024-07-21 remove language code
+2024-07-21 getDefaultLanguageTest
+2024-07-19 compact language code
+2024-07-18 localize JSON files
+2024-07-17 add file-switching code
+2024-07-17 add Japanese description
+2024-07-17 about that
+2024-07-17 update tourist site description
+2024-07-13 change key
+2024-07-13 localized my app
+2024-07-04 Merge pull request #10 from jtakumi/feature/favorite
+2024-07-04 delete non-Observable landmarks in ModelData
+2024-07-04 favorite button
+2024-07-04 adapt modelData
+2024-07-04 observable class modelData
+2024-07-04 toggle switch
+2024-07-04 filtered landmarks
+2024-07-04 favorite star
+2024-06-29 Merge pull request #8 from jtakumi/Landmark
+2024-06-29 set app icon
+2024-06-29 Merge pull request #7 from jtakumi/Landmark
+2024-06-29 pass landmarks info to detail screen
+2024-06-29 detail screen
+2024-06-29 identifiable
+2024-06-29 LandmarkList
+2024-06-29 add multiple preview in landmarkRow
+2024-06-29 LandmarkRow
+2024-06-29 added photos
+2024-06-29 ModelData.swift
+2024-06-29 moved files
+2024-06-29 moved files
+2024-06-29 Landmark.swift
+2024-06-29 upgrade Xcode version
+2024-06-29 remove comments
+2024-06-25 Merge pull request #6 from jtakumi/feature/darkMode
+2024-06-25 image
+2024-06-16 Merge pull request #5 from jtakumi/feature/darkMode
+2024-06-16 implemented automatic dark mode
+2024-06-10 Merge pull request #4 from jtakumi/feature/imageCircle
+2024-06-10 image resize to fit screen
+2024-06-09 Merge pull request #3 from jtakumi/feature/detailView
+2024-06-09 convert content view to detail view
+2024-06-09 Merge pull request #2 from jtakumi/feature/MapView
+2024-06-09 add map view
+2024-06-09 Merge pull request #1 from jtakumi/feature/tutorial
+2024-06-07 circle image
+2024-06-07 VStack and HStack
+2024-06-07 initial commit
+2024-06-07 Initial commit
