@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.modelContext) var modelContext
     var body: some View {
-    LandmarkList()
+        TouristSpotList(spots: touristSpots)
     }
 }
 
 #Preview {
     ContentView()
-        .environment(ModelData())
 }
+
