@@ -2,7 +2,7 @@
 
 iOS_novice is a practice SwiftUI application that displays a list of tourist
 landmarks and lets you manage favorites. The project follows Apple's Landmarks
-tutorial but adds small experiments for learning Swift and SwiftUI.
+tutorial but adds small experiments for learning Swift and SwiftUI. The app now targets iOS 26.
 
 ## Features
 
@@ -28,8 +28,8 @@ tutorial but adds small experiments for learning Swift and SwiftUI.
 
 ## Running
 
-1. Open `iOS_novice.xcodeproj` in Xcode 15 or later.
-2. Select an iOS 17+ simulator or a connected device.
+1. Open `iOS_novice.xcodeproj` in Xcode 18 or later.
+2. Select an iOS 26 simulator or a connected device.
 3. Build and run the app.
 
 ## Testing
