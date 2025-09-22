@@ -29,7 +29,19 @@ struct LandmarkList: View {
                 //Toggle スイッチをオンにするとお気に入り観光地だけ表示する
                 Toggle(isOn: $showFavoritesOnly, label: {
                         Text("Favorite Landmarks only display")
+                            .font(.headline)
                 })
+                .padding()
+                .background {
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(.regularMaterial)
+                        .overlay {
+                            RoundedRectangle(cornerRadius: 12)
+                                .fill(Color.green.opacity(0.1))
+                        }
+                        .shadow(color: .black.opacity(0.1), radius: 8, x: 0, y: 4)
+                }
+                .clipShape(RoundedRectangle(cornerRadius: 12))
                ForEach(filteredLandmarks) { landmark in
                     NavigationLink{
                         //セルをタップすると詳細画面に移行する

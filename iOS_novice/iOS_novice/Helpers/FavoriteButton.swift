@@ -30,6 +30,18 @@ struct FavoriteButton: View {
                 //アイコンのみを表示する
                     .labelStyle(.iconOnly)
                     .foregroundStyle(landmark.isFavorite ? .yellow : .gray)
+                    .font(.title2)
+                    .padding(8)
         }
+        .background {
+            RoundedRectangle(cornerRadius: 8)
+                .fill(.regularMaterial)
+                .overlay {
+                    RoundedRectangle(cornerRadius: 8)
+                        .fill((landmark.isFavorite ? Color.yellow : Color.gray).opacity(0.1))
+                }
+                .shadow(color: .black.opacity(0.1), radius: 4, x: 0, y: 2)
+        }
+        .clipShape(RoundedRectangle(cornerRadius: 8))
     }
 }

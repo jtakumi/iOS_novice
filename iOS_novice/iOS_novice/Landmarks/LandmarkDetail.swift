@@ -50,9 +50,26 @@ struct LandmarkDetail: View {
                 .foregroundStyle(.secondary)
                 
                 Divider()
-                Text("About \(landmark.name)")
-                    .font(.title2)
-                Text(landmark.description)
+                
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("About \(landmark.name)")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                    Text(landmark.description)
+                        .font(.body)
+                        .lineSpacing(4)
+                }
+                .padding()
+                .background {
+                    RoundedRectangle(cornerRadius: 16)
+                        .fill(.regularMaterial)
+                        .overlay {
+                            RoundedRectangle(cornerRadius: 16)
+                                .fill(Color.purple.opacity(0.1))
+                        }
+                        .shadow(color: .black.opacity(0.1), radius: 8, x: 0, y: 4)
+                }
+                .clipShape(RoundedRectangle(cornerRadius: 16))
             }
             .padding()
 
