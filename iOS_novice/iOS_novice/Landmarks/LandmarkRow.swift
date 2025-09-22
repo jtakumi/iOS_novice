@@ -15,7 +15,9 @@ struct LandmarkRow: View {
             //画像を 50 x 50 で左端に表示
                 .resizable()
                 .frame(width: 50, height: 50)
+                .clipShape(RoundedRectangle(cornerRadius: 8))
             Text(landmark.name)
+                .font(.headline)
             //Spacer を挿入することでお気に入りアイコンを右端に寄せている
             Spacer()
             if( landmark.isFavorite) {
@@ -24,6 +26,19 @@ struct LandmarkRow: View {
                     .foregroundStyle(.yellow)
             }
         }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 12)
+        .background {
+            RoundedRectangle(cornerRadius: 12)
+                .fill(.regularMaterial)
+                .overlay {
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(Color.blue.opacity(0.1))
+                }
+                .shadow(color: .black.opacity(0.1), radius: 8, x: 0, y: 4)
+        }
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .padding(.horizontal, 8)
     }
 }
 
